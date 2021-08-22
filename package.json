@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float64-max-safe-fibonacci",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Maximum safe Fibonacci number when stored in double-precision floating-point format.",
   "license": "Apache-2.0",
   "author": {
