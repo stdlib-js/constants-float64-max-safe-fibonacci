@@ -20,7 +20,7 @@ limitations under the License.
 
 # Fibonacci Number
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Maximum safe [Fibonacci number][fibonacci-number] when stored in [double-precision floating-point][ieee754] format.
 
@@ -111,7 +111,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   [`@stdlib/constants/float64/max-safe-nth-fibonacci`][@stdlib/constants/float64/max-safe-nth-fibonacci]: maximum safe nth Fibonacci number when stored in double-precision floating-point format.
+-   <span class="package-name">[`@stdlib/constants/float64/max-safe-nth-fibonacci`][@stdlib/constants/float64/max-safe-nth-fibonacci]</span><span class="delimiter">: </span><span class="description">maximum safe nth Fibonacci number when stored in double-precision floating-point format.</span>
 
 </section>
 
@@ -162,8 +162,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float64-max-safe-fibonacci/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float64-max-safe-fibonacci?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/constants-float64-max-safe-fibonacci.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/constants-float64-max-safe-fibonacci/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
