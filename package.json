@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/constants-float64-max-safe-fibonacci",
+  "version": "0.0.0",
+  "description": "Maximum safe Fibonacci number when stored in double-precision floating-point format.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-float64-max-safe-fibonacci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "max",
+    "maximum",
+    "fibonacci",
+    "number",
+    "fib",
+    "safe",
+    "integer",
+    "double",
+    "dbl",
+    "floating",
+    "point",
+    "floating-point",
+    "float",
+    "float64",
+    "f64",
+    "ieee754"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
