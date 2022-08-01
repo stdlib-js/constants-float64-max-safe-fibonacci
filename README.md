@@ -24,7 +24,23 @@ limitations under the License.
 
 > Maximum safe [Fibonacci number][fibonacci-number] when stored in [double-precision floating-point][ieee754] format.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-max-safe-fibonacci
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
@@ -33,7 +49,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT64_MAX_SAFE_FIBONACCI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@deno/mod.js';
+var FLOAT64_MAX_SAFE_FIBONACCI = require( '@stdlib/constants-float64-max-safe-fibonacci' );
 ```
 
 #### FLOAT64_MAX_SAFE_FIBONACCI
@@ -60,7 +76,7 @@ var bool = ( FLOAT64_MAX_SAFE_FIBONACCI === 8944394323791464 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import FLOAT64_MAX_SAFE_FIBONACCI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@deno/mod.js';
+var FLOAT64_MAX_SAFE_FIBONACCI = require( '@stdlib/constants-float64-max-safe-fibonacci' );
 
 var v;
 var i;
@@ -118,7 +134,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -186,7 +202,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-nth-fibonacci/tree/deno
+[@stdlib/constants/float64/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-nth-fibonacci
 
 <!-- </related-links> -->
 
