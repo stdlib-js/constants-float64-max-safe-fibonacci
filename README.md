@@ -18,13 +18,29 @@ limitations under the License.
 
 -->
 
-# Fibonacci Number
+# FLOAT64_MAX_SAFE_FIBONACCI
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Maximum safe [Fibonacci number][fibonacci-number] when stored in [double-precision floating-point][ieee754] format.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-max-safe-fibonacci
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
@@ -32,32 +48,8 @@ limitations under the License.
 
 <!-- eslint-disable id-length -->
 
-To use in Observable,
-
 ```javascript
-FLOAT64_MAX_SAFE_FIBONACCI = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var FLOAT64_MAX_SAFE_FIBONACCI = require( 'path/to/vendor/umd/constants-float64-max-safe-fibonacci/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.FLOAT64_MAX_SAFE_FIBONACCI;
-})();
-</script>
+var FLOAT64_MAX_SAFE_FIBONACCI = require( '@stdlib/constants-float64-max-safe-fibonacci' );
 ```
 
 #### FLOAT64_MAX_SAFE_FIBONACCI
@@ -83,13 +75,8 @@ var bool = ( FLOAT64_MAX_SAFE_FIBONACCI === 8944394323791464 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var FLOAT64_MAX_SAFE_FIBONACCI = require( '@stdlib/constants-float64-max-safe-fibonacci' );
 
 var v;
 var i;
@@ -118,16 +105,65 @@ for ( i = 0; i < 100; i++ ) {
         console.log( 'Safe:   %d', v );
     }
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
+
+<!-- C interface documentation. -->
+
+* * *
+
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/max_safe_fibonacci.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_MAX_SAFE_FIBONACCI
+
+Macro for the maximum [safe][safe-integers] [Fibonacci number][fibonacci-number] when stored in [double-precision floating-point][ieee754] format.
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -220,7 +256,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-nth-fibonacci/tree/umd
+[@stdlib/constants/float64/max-safe-nth-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-nth-fibonacci
 
 <!-- </related-links> -->
 
