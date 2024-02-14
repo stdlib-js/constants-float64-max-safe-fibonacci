@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT64_MAX_SAFE_FIBONACCI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-max-safe-fibonacci/tags). For example,
+
+```javascript
 import FLOAT64_MAX_SAFE_FIBONACCI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@v0.2.0-esm/index.mjs';
 ```
 
@@ -76,7 +81,7 @@ var bool = ( FLOAT64_MAX_SAFE_FIBONACCI === 8944394323791464 );
 <body>
 <script type="module">
 
-import FLOAT64_MAX_SAFE_FIBONACCI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@v0.2.0-esm/index.mjs';
+import FLOAT64_MAX_SAFE_FIBONACCI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-fibonacci@esm/index.mjs';
 
 var v;
 var i;
