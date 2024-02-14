@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float64-max-safe-fibonacci",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Maximum safe Fibonacci number when stored in double-precision floating-point format.",
   "license": "Apache-2.0",
   "author": {
@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-library-manifest": "^0.1.1"
+    "@stdlib/utils-library-manifest": "^0.2.0"
   },
   "devDependencies": {
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
